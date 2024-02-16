@@ -21,15 +21,55 @@ function App(): JSX.Element {
             </Button>
             <p>Hello World</p>
             <img src={img} alt="Code that outputs 'Hello World'" />
-            <div className="App-Rect">
+            <div>
                 <Container>
                     <Row>
-                        <Col>THIS</Col>
-                        <Col>IS</Col>
+                        <Col>
+                            <div
+                                style={{
+                                    width: "100%",
+                                    backgroundColor: "Red",
+                                    border: "5px solid black"
+                                }}
+                            >
+                                THIS
+                            </div>
+                        </Col>
+                        <Col>
+                            <div
+                                style={{
+                                    width: "100%",
+                                    backgroundColor: "Red",
+                                    border: "5px solid black"
+                                }}
+                            >
+                                IS
+                            </div>
+                        </Col>
                     </Row>
                     <Row>
-                        <Col>A</Col>
-                        <Col>TEST</Col>
+                        <Col>
+                            <div
+                                style={{
+                                    width: "100%",
+                                    backgroundColor: "Red",
+                                    border: "5px solid black"
+                                }}
+                            >
+                                A
+                            </div>
+                        </Col>
+                        <Col>
+                            <div
+                                style={{
+                                    width: "100%",
+                                    backgroundColor: "Red",
+                                    border: "5px solid black"
+                                }}
+                            >
+                                TEST
+                            </div>
+                        </Col>
                     </Row>
                 </Container>
             </div>
