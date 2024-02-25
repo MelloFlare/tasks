@@ -1,6 +1,4 @@
-import { stringify } from "querystring";
 import { Question, QuestionType } from "./interfaces/question";
-import { queries } from "@testing-library/react";
 
 /**
  * Create a new blank question with the given `id`, `name`, and `type. The `body` and
